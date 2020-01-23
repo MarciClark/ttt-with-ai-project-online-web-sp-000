@@ -8,8 +8,6 @@ until game.won?
   game.play
 end
 
-play_again = ""
-# until play_again.downcase == "n" || play_again.downcase == "no"
   puts "Want to play again?"
   play_again = gets.strip
   play_again.downcase == "y" || play_again.downcase == "yes"
